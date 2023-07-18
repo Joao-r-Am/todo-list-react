@@ -14,7 +14,7 @@ const App = () => {
         <div className="uk-container">
           <Routes>
             <Route path="/create" element={<AddTodo />} />
-            <Route path="/todo-list-react" element={<TodoList />}></Route>
+            <Route path="/todo-list-react/" element={<TodoList />}></Route>
           </Routes>
         </div>
       </Router>
